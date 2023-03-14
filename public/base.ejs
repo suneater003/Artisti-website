@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../assets/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisti | The Art Club</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="icon" href="./assets/favicon.png">
+</head>
+
+<body>
+    <header class="header sticky top-0 bg-white shadow-md px-8 py-02">
+        <div class="flex items-center justify-between">
+
+            <!-- logo -->
+            <h1 class="w-3/12">
+                <div class="flex flex-row  h-16 w-16">
+                    <img class="h-16 w-16 mobile:h-8 mobile:w-8 mobile:my-1" src="../assets/logo.png">
+                    <div class="ml-2 mt-4 font-bold text-2xl text-indigo-700">ARTISTI</div>
+                </div>
+            </h1>
+
+            <!-- navigation -->
+            <nav class="nav font-semibold text-gray-900 font-bold mobile:hidden">
+                <ul class="flex items-center">
+                    <li
+                        class="p-4 border-b-2 border-blue-500 border-opacity-0 hover:border-opacity-100 hover:text-blue-500 duration-200 cursor-pointer active">
+                        <a href="">Home</a>
+                    </li>
+                    <li
+                        class="p-4 border-b-2 border-blue-500 border-opacity-0 hover:border-opacity-100 hover:text-blue-500 duration-200 cursor-pointer">
+                        <a href="" target="_blank">Gallery</a>
+                    </li>
+                    <li
+                        class="p-4 border-b-2 border-blue-500 border-opacity-0 hover:border-opacity-100 hover:text-blue-500 duration-200 cursor-pointer">
+                        <a href="" target="_blank">About Us</a>
+                    </li>
+                    <li
+                        class="p-4 border-b-2 border-blue-500 border-opacity-0 hover:border-opacity-100 hover:text-blue-500 duration-200 cursor-pointer">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- buttons --->
+            <div class="w-3/12 flex justify-end mobile:hidden">
+
+                <a class=" inline-block py-2 px-6 bg-indigo-600 hover:bg-indigo-500 text-sm text-white font-bold rounded-xl transition duration-200"
+                    href="" target="_blank" target="_blank">Join Us</a>
+            </div>
+
+            <!-- Mobile Toggler -->
+            <div class="hidden mobile:flex mobile:flex-row ">
+                <button class="mobile-menu-btn navbar-burger flex items-center text-blue-600 p-3">
+                    <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Mobile Toggler</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile-Menu  -->
+
+        <div class="hidden mobile-menu flex flex-col justify-center items-center">
+            <a href=""
+                class="block p-4 font-bold border-b-2 border-blue-500 border-opacity-0 cursor-pointer active">Home</a>
+            <a href="" target="_blank"
+                class="block p-4 font-bold border-b-2 border-blue-500 border-opacity-0 cursor-pointer">Gallery</a>
+            <a href="" class="block p-4 font-bold border-b-2 border-blue-500 border-opacity-0 cursor-pointer "> About
+                Us</a>
+            <a href="" target="_blank"
+                class="block p-4 font-bold border-b-2 border-blue-500 border-opacity-0 cursor-pointer">Contact</a>
+        </div>
+    </header>
+    <!-- Content 1  -->
+
+    <div class="flex flex-wrap justify-around mt-32 h-full mb-48">
+        <img src="./assets/art1.jpg" alt="..." class="shadow-2xl rounded w-aut h-auto align-middle border-none" />
+        <div class=" flex flex-col max-w-xl -tracking-tight justify-center text-center items-center">
+            <h1 class="text-3xl font-extrabold text-gray-900 "><span
+                    class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Welcome to Club
+                    Artisti !</span><br> Only Art Club of SMIT</h1>
+            <div class="text-lg font-normal text-gray-500 m-4">Our club is a vibrant hub of creativity where members
+                come
+                together to share their passion for art, learn new techniques, and showcase their work. Our website is
+                your gateway to all the exciting things happening in our club.
+            </div>
+
+            <div class="w-3/12 flex justify-end mobile:hidden mt-4">
+                <a class=" inline-block py-2 px-6 bg-black hover:bg-slate-700 text-sm text-white font-bold rounded-xl transition duration-200"
+                    href="" target="_blank">Explore More</a>
+            </div>
+        </div>
+    </div>
+    <!-- Content 2  -->
+
+    <div class="bg-orange-100 mt-12 flex flex-col justify-start items-center" id="aboutus">
+        <h1 class="mt-12 text-3xl font-extrabold text-gray-900 "><span
+                class="text-transparent bg-clip-text bg-gradient-to-r to-pink-400 from-yellow-400 from-red-400">Our
+                Journey as a Club</span><br> </h1>
+        <div class="px-48 text-lg font-normal text-gray-500 mt-6 text-center">We are the only art club in our college,
+            and our journey has been a colorful and creative one. We started as a small group of passionate artists who
+            wanted to share our love of art with our fellow students. Over time, our membership has grown, and we have
+            become a vibrant community of artists and art enthusiasts.<br>
+            One of the highlights of our journey has been our involvement in the college's art events. We have organized
+            exhibitions, art contests, and workshops that have showcased the talents of our members and inspired others
+            to pursue their artistic passions. We have also collaborated with other clubs and organizations to bring the
+            arts to the wider college community.
+        </div>
+        
+    </div>
+
+    <!-- footer -->
+    <!-- Thank you for choosing to be a part of our Art Club. We look forward to creating and sharing art with you! -->
+</body>
+<script src="./js/hamburger.js"></script>
+
+</html>
