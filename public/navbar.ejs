@@ -1,0 +1,64 @@
+<header class="header sticky top-0 bg-white shadow-md px-8 py-02">
+    <div class="flex items-center justify-between">
+
+        <!-- logo -->
+        <h1 class="w-3/12">
+            <div class="flex flex-row  h-16 w-16">
+                <img class="h-16 w-16 mobile:h-8 mobile:w-8 mobile:my-1" src="../assets/logo.png">
+                <div class="ml-2 mt-4 font-bold text-2xl text-indigo-700">ARTISTI</div>
+            </div>
+        </h1>
+
+        <!-- navigation -->
+        <nav class="nav font-semibold text-gray-900 font-bold mobile:hidden">
+            <ul class="flex items-center">
+                <li
+                    class="p-4 border-b-2 border-blue-500 border-opacity-0 hover:border-opacity-100 hover:text-blue-500 duration-200 cursor-pointer active">
+                    <a href="">Home</a>
+                </li>
+                <li
+                    class="p-4 border-b-2 border-blue-500 border-opacity-0 hover:border-opacity-100 hover:text-blue-500 duration-200 cursor-pointer">
+                    <a href="" target="_blank">Gallery</a>
+                </li>
+                <li
+                    class="p-4 border-b-2 border-blue-500 border-opacity-0 hover:border-opacity-100 hover:text-blue-500 duration-200 cursor-pointer">
+                    <a href="" target="_blank">Team</a>
+                </li>
+                <li
+                    class="p-4 border-b-2 border-blue-500 border-opacity-0 hover:border-opacity-100 hover:text-blue-500 duration-200 cursor-pointer">
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- buttons --->
+        <div class="w-3/12 flex justify-end mobile:hidden">
+
+            <a class=" inline-block py-2 px-6 bg-indigo-600 hover:bg-indigo-500 text-sm text-white font-bold rounded-xl transition duration-200"
+                href="" target="_blank" target="_blank">Join Us</a>
+        </div>
+
+        <!-- Mobile Toggler -->
+        <div class="hidden mobile:flex mobile:flex-row ">
+            <button class="mobile-menu-btn navbar-burger flex items-center text-blue-600 p-3">
+                <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Mobile Toggler</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile-Menu  -->
+
+    <div class="hidden mobile-menu flex flex-col justify-center items-center">
+        <a href=""
+            class="block p-4 font-bold border-b-2 border-blue-500 border-opacity-0 cursor-pointer active">Home</a>
+        <a href="" target="_blank"
+            class="block p-4 font-bold border-b-2 border-blue-500 border-opacity-0 cursor-pointer">Gallery</a>
+        <a href="" class="block p-4 font-bold border-b-2 border-blue-500 border-opacity-0 cursor-pointer "> Team
+            Us</a>
+        <a href="" target="_blank"
+            class="block p-4 font-bold border-b-2 border-blue-500 border-opacity-0 cursor-pointer">Contact</a>
+    </div>
+</header>
