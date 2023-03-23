@@ -3,6 +3,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: Dream-Avenue;
+    src: url(../assets/fonts/FontsFree-Net-Dream-Avenue.ttf);
+}
+
+@font-face {
+    font-family: TT-Drugs;
+    src: url(../assets/fonts/TTDrugs-Regular.ttf);
+}
 body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
     min-width: fit-content;
+}
+
+.head{
+    font-family: Dream-Avenue;
+}
+
+.font-tt{
+    font-family: TT-Drugs;
 }

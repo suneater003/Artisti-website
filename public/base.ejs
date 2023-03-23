@@ -1,124 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <link rel="icon" href="../assets/favicon.ico">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Artisti | The Art Club</title>
-        <link rel="stylesheet" href="./dist/output.css">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-        <link rel="icon" href="./assets/favicon.png">
-        <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
-        <script>
-            AOS.init({
-                duration: 1200,
-            });
-          </script>
+
+<head>
+    <link rel="icon" href="../assets/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisti | The Art Club</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
 </head>
 
 <body>
-
-    <!-- Navbar  -->
-    <%- include('navbar') %>
-
-        <!-- Banner  -->
-
-        <%- include('banner') %>
-
-            <!-- Content 1  -->
-
-            <div class="flex flex-wrap justify-center mt-3 h-full mb-48 text-center flex-col items-center" data-aos="fade-right">
-
-                <h1 class="text-3xl font-extrabold text-gray-900 leading-loose"><span
-                        class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Welcome to
-                        Club
-                        Artisti !</span><br>The Only Art Club of SMIT</h1>
-                <div class="text-lg font-normal text-gray-500 m-4 w-1/3">Our club is a vibrant hub of creativity where members
-                    come
-                    together to share their passion for art, learn new techniques, and showcase their work. Our website
-                    is
-                    your gateway to all the exciting things happening in our club.
-                </div>
-
-                <div class="w-3/12 flex mobile:hidden mt-4 justify-center">
-                    <a class=" inline-block py-2 px-6 bg-black hover:bg-slate-700 text-sm text-white font-bold rounded-xl transition duration-200"
-                        href="" target="_blank">Explore More</a>
-                </div>
-
+    <div class="container flex justify-around mt-8">
+        <div class="">
+            <img class="absolute max-w-xs" src="./assets/img/cover.jpg" alt="">
+            <img class="absolute w-52 h-56 mt-[20em] ml-[16em] border-2" src="./assets/img/girl.jpg" alt="">
+        </div>
+        <div id="cover-container" class="max-w-xs flex flex-col justify-center h-[33rem]">
+            <h1 class="head text-[5rem] leading-tight">CLUB<br>ARTISTI</h1>
+            <div class="flex flex-col font-TT-Drugs">
+                <h4 class="font-tt mt-8 text-[1rem] leading-tight">THE  ONLY  ART CLUB  OF SMIT</h4>
+                <p class="font-tt w-80 text-sm mt-4">
+                    Our club is a vibrant hub of creativity where members come together to share their passion for art, learn new techniques, and showcase their work. Our website is your gateway to all the exciting things happening in our club.
+                </p>
             </div>
-            <!-- Content 2  -->
+        </div>
+    </div>
 
-            <div class="bg-gradient-to-br from-blue-100 to-pink-200 mt-12 flex flex-col justify-start items-center"
-                id="aboutus">
-                <h1 class="mt-12 text-3xl font-extrabold text-gray-900 "><span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-pink-600 to-red-600">Our
-                        Journey as a Club</span><br> </h1>
-                <div class="px-48 text-lg font-normal text-gray-500 mt-6 text-center">We are the only art club in our
-                    college,
-                    and our journey has been a colorful and creative one. We started as a small group of passionate
-                    artists
-                    who
-                    wanted to share our love of art with our fellow students. Over time, our membership has grown, and
-                    we
-                    have
-                    become a vibrant community of artists and art enthusiasts.<br>
-                    One of the highlights of our journey has been our involvement in the college's art events. We have
-                    organized
-                    exhibitions, art contests, and workshops that have showcased the talents of our members and inspired
-                    others
-                    to pursue their artistic passions. We have also collaborated with other clubs and organizations to
-                    bring
-                    the
-                    arts to the wider college community.
-                </div>
-
-
-                <section class="overflow-hidden text-neutral-700 w-8/12 my-6">
-                    <div class="container px-5 py-2">
-                        <div class="-m-1 flex flex-wrap">
-                            <div class="flex w-1/2 flex-wrap">
-                                <div class="w-1/2 p-1 ">
-                                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
-                                </div>
-                                <div class="w-1/2 p-1 ">
-                                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
-                                </div>
-                                <div class="w-full p-1 ">
-                                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
-                                </div>
-                            </div>
-                            <div class="flex w-1/2 flex-wrap">
-                                <div class="w-full p-1 ">
-                                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                                        src="./assets/artworks/art1.png" />
-                                </div>
-                                <div class="w-1/2 p-1 ">
-                                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
-                                </div>
-                                <div class="w-1/2 p-1 ">
-                                    <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                                        src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <%- include('services') %>
-            <%- include('events') %>
-            <!-- footer -->
-            <!-- Thank you for choosing to be a part of our Art Club. We look forward to creating and sharing art with you! -->
-</body>
+    <%- include('journey') %>
+    <%- include('quote') %>
+    <%- include('services') %>
+    <%- include('events') %>
+    <%- include('joinus') %>
+    
 <script src="./js/hamburger.js"></script>
-<script src="./js/slider.js"></script>
+
+<script src="./js/aos.js"></script>
 
 </html>
