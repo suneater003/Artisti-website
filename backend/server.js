@@ -1,5 +1,6 @@
 import express from 'express'
 import bp from'body-parser'
+import galleryRoute from './Routes/galleryRoute.js';
 
 const app = express();
 
@@ -14,10 +15,13 @@ app.use(express.static("./public"))
 app.use(bp.json());
 app.use(bp.urlencoded({extended: false}))
 
-//home route
+// Home route
 app.get('/', (req, res) => {
     res.render('../public/base');
 })
+
+// Gallery Route
+app.get('/gallery', galleryRoute);
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}`)
