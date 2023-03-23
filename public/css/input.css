@@ -15,6 +15,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     color: white;
     background-color: black;
     min-width: fit-content;
@@ -26,4 +27,11 @@ body {
 
 .font-tt{
     font-family: TT-Drugs;
+}
+
+.blur{
+    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255,255,255,0)); */
+    /* backdrop-filter: blur(15px); */
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,0.1);
 }
