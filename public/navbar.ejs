@@ -1,4 +1,5 @@
-<header class="header sticky top-0 shadow-md px-8 py-02 z-10 font-tt text-white transition-all duration-150" id="nav">
+<header class="header sticky top-0 shadow-md px-8 py-02 font-tt text-white transition-all duration-150" id="nav"
+    style="z-index: 50">
     <div class="flex items-center justify-between">
         <!-- logo -->
         <h1 class="w-3/12">
@@ -9,8 +10,8 @@
         </h1>
 
         <!-- navigation -->
-        <nav class="nav font-bold mobile:hidden">
-            <ul class="flex items-center">
+        <nav class="nav font-bold mobile:hidden mobile:justify-center">
+            <ul class="flex items-center justify-center">
                 <li class="pl-8 border-opacity-0 hover:border-opacity-100 hover:text-red-500 duration-200 cursor-pointer active"
                     id="nav">
                     <a href="/">Home</a>
@@ -32,7 +33,7 @@
 
         <!-- Mobile Toggler -->
         <div class="hidden mobile:flex mobile:flex-row ">
-            <button class="mobile-menu-btn navbar-burger flex items-center text-blue-600 p-3">
+            <button class="mobile-menu-btn navbar-burger flex items-center text-white p-3" id="btn">
                 <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <title>Mobile Toggler</title>
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -43,20 +44,26 @@
 
     <!-- Mobile-Menu  -->
 
-    <div class="hidden mobile-menu flex-col justify-center items-center">
+    <div class="hidden mobile-menu flex flex-col justify-center items-center mobile:items-center">
         <a href="/" class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer active">Home</a>
-        <a href="/gallery"
-            class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer">Gallery</a>
+        <a href="/gallery" class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer">Gallery</a>
         <a href="" class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer "> Team
             Us</a>
-        <a href=""
-            class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer">Contact</a>
+        <a href="" class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer">Contact</a>
     </div>
 </header>
 
 <script>
     window.onscroll = () => {
         const nav = document.querySelector('#nav');
-          if(this.scrollY > 10) nav.className = 'header sticky top-0 shadow-md px-8 py-02 z-10 font-tt bg-slate-50 text-black transition-all duration-150'; else nav.className = 'header sticky top-0 shadow-md px-8 py-02 z-10 font-tt text-white transition-all duration-150 ';
+        const btn = document.querySelector('#btn');
+        if (this.scrollY > 10) { 
+            nav.className = 'header sticky top-0 shadow-md px-8 py-02 z-10 font-tt bg-slate-50 text-black transition-all duration-150'; 
+            btn.className = 'mobile-menu-btn navbar-burger flex items-center text-black p-3'
+        }
+        else {
+            nav.className = 'header sticky top-0 shadow-md px-8 py-02 z-10 font-tt text-white transition-all duration-150 ';
+            btn.className = 'mobile-menu-btn navbar-burger flex items-center text-white-900 p-3'
+        }
     };
 </script>
