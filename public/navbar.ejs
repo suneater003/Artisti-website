@@ -1,4 +1,4 @@
-<header class="header sticky top-0 shadow-md px-8 py-02 font-tt text-white transition-all duration-150" id="nav"
+<header class="header fixed w-full top-0 shadow-md px-8 py-02 font-tt text-white transition-all duration-150" id="nav"
     style="z-index: 50">
     <div class="flex items-center justify-between">
         <!-- logo -->
@@ -58,11 +58,11 @@
         const nav = document.querySelector('#nav');
         const btn = document.querySelector('#btn');
         if (this.scrollY > 10) { 
-            nav.className = 'header sticky top-0 shadow-md px-8 py-02 z-10 font-tt bg-slate-50 text-black transition-all duration-150'; 
+            nav.className = 'header fixed w-full top-0 shadow-md px-8 py-02 z-10 font-tt bg-slate-50 text-black transition-all duration-150'; 
             btn.className = 'mobile-menu-btn navbar-burger flex items-center text-black p-3'
         }
         else {
-            nav.className = 'header sticky top-0 shadow-md px-8 py-02 z-10 font-tt text-white transition-all duration-150 ';
+            nav.className = 'header fixed w-full top-0 shadow-md px-8 py-02 z-10 font-tt text-white transition-all duration-150 ';
             btn.className = 'mobile-menu-btn navbar-burger flex items-center text-white-900 p-3'
         }
     };
