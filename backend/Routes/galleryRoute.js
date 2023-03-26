@@ -2,7 +2,7 @@ import express from 'express'
 
 const galleryRoute = express.Router();
 
-//Login Route
+//Gallery Route
 galleryRoute.get('/gallery', (req, res) => {
     res.render('../public/gallery')
 })
