@@ -4,14 +4,14 @@
 
 *::-webkit-scrollbar {
     width: 8px;
-  }
-  
-  *::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-track {
     background: rgb(34, 34, 34);
     border-radius: 100vh;
-  }
-  
-  *::-webkit-scrollbar-thumb {
+}
+
+*::-webkit-scrollbar-thumb {
     background: white;
     border-radius: 100vw;
     border: 2px solid whitesmoke;
@@ -21,7 +21,7 @@
     border-radius: 100vw;
     border: 2px solid whitesmoke;
   }
-
+  
 @font-face {
     font-family: Dream-Avenue;
     src: url(../assets/fonts/FontsFree-Net-Dream-Avenue.ttf);
@@ -31,12 +31,16 @@
     font-family: TT-Drugs;
     src: url(../assets/fonts/TTDrugs-Regular.ttf);
 }
+
+html{
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
     color: white;
     background-color: black;
 }

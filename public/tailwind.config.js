@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     screens: {
       'mobile': { 'max': '1300px' },
+      'mini': {'max': '670px'}
     },
   },
   plugins: [],

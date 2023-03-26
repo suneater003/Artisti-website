@@ -10,32 +10,32 @@
     <link rel="stylesheet" href="./dist/output.css">
 
     <!-- AOS CSS Cource  -->
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- AOS JS Source  -->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <link rel="icon" href="./assets/favicon.png">
     <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
     <%- include('navbar') %>
         <div class="container flex justify-around mt-8 mobile:flex-col mobile:items-center">
             <div class="mobile:mb-[5rem] mobile:mr-[40%]">
-                <img class="absolute max-w-xs" data-aos="fade-right" src="./assets/img/cover.jpg" alt="">
-                <img class="absolute w-52 h-56 mt-[20em] ml-[16em] border-2" src="./assets/img/girl.jpg"
+                <img class="absolute max-w-xs mini:max-w-[12rem]" data-aos="fade-right" src="./assets/img/cover.jpg" alt="">
+                <img class="absolute w-52 h-56 mt-[20em] ml-[16em] border-2 mini:max-w-[12rem] mini:w-36 mini:h-36 mini:mt-[15rem] mini:ml-[6rem]" src="./assets/img/girl.jpg"
                     data-aos="fade-right" alt="">
             </div>
-            <div id="cover-container" class="max-w-sm flex flex-col justify-center h-[33rem] mobile:mt-[27rem]"
+            <div id="cover-container" class="max-w-sm flex flex-col justify-center h-[33rem] mobile:mt-[27rem] mini:mt-80"
                 data-aos="fade-left">
                 <div class="mobile:flex mobile:items-center mobile:text-center mobile:justify-center">
-                    <h1 class="flex items-center head text-[5rem] leading-tight">CLUB ARTISTI</h1>
+                    <h1 class="flex items-center head text-[5rem] leading-tight mini:text-[3rem]">CLUB ARTISTI</h1>
                 </div>
                 <div class="flex flex-col font-TT-Drugs mobile:items-center">
                     <h4 class="font-tt mt-8 text-[1rem] leading-tight">THE ONLY ART CLUB OF SMIT</h4>
-                    <p class="font-tt w-80 text-sm mt-4 mobile:flex flex-col items-center">
+                    <p class="font-tt w-80 text-sm mt-4 mobile:flex flex-col mobile:text-center">
                         Our club is a vibrant hub of creativity where members come together to share their passion for
                         art,
                         learn new techniques, and showcase their work. Our website is your gateway to all the exciting
