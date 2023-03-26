@@ -1,6 +1,7 @@
 import express from 'express'
 import bp from'body-parser'
 import galleryRoute from './Routes/galleryRoute.js';
+import teamRoute from './Routes/teamRoute.js';
 
 const app = express();
 
@@ -22,6 +23,9 @@ app.get('/', (req, res) => {
 
 // Gallery Route
 app.get('/gallery', galleryRoute);
+
+// Team Route
+app.get('/team', teamRoute);
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}`)
