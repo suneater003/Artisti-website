@@ -1,6 +1,16 @@
 const fetchMembers = () => {   
+    let members = document.getElementById("members")
     // Fetching Members from Database   
     fetch('/members')
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) => {
+        data.forEach((item) => {
+            let li = document.createElement("li");
+            li.innerText = item.name;
+            li.classList.add("text-body-color", "mb-4", "flex", "text-base", "p-4")
+            members.appendChild(li);
+        });
+    });
 }
+    
+fetchMembers()
