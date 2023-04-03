@@ -4,6 +4,7 @@ import galleryRoute from './Routes/galleryRoute.js';
 import teamRoute from './Routes/teamRoute.js';
 import Connection from './database/db.js';
 import membersRoute from './Routes/members.js';
+import contactRoute from './Routes/contactRoute.js';
 const app = express();
 
 const PORT = process.env.PORT || 3000
@@ -31,6 +32,9 @@ app.get('/members', membersRoute)
 
 // Team Route
 app.get('/team', teamRoute);
+
+// Contact Route
+app.get('/contact', contactRoute);
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}`)
