@@ -1,9 +1,9 @@
-<header class="header fixed w-full top-0 shadow-md px-8 py-02 font-tt text-white transition-all duration-150" id="nav"
+<header class="header fixed w-full top-0 shadow-md px-4 py-02 font-tt text-white transition-all duration-150" id="nav"
     style="z-index: 50">
     <div class="flex items-center justify-between">
         <!-- logo -->
         <h1 class="w-3/12">
-            <div class="flex flex-row  h-16 w-16">
+            <div class="flex flex-row h-16 w-16">
                 <img class="h-16 w-16 mobile:h-8 mobile:w-8 mobile:my-1" src="../assets/logo.png">
                 <div class="ml-2 mt-4 font-bold text-2xl">ARTISTI</div>
             </div>
@@ -44,11 +44,11 @@
 
     <!-- Mobile-Menu  -->
 
-    <div class="hidden mobile-menu flex flex-col justify-center items-center mobile:items-center">
-        <a href="/" class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer active">Home</a>
-        <a href="/gallery" class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer">Gallery</a>
-        <a href="/team" class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer "> Team</a>
-        <a href="/contact" class="block pl-8 font-bold border-red-500 border-opacity-0 cursor-pointer">Contact</a>
+    <div class="hidden mobile-menu flex justify-center items-center mobile:items-center mobile:justify-center">
+        <a href="/" class=" pr-4 font-bold border-red-500 border-opacity-0 cursor-pointer active">Home</a>
+        <a href="/gallery" class=" pr-4 font-bold border-red-500 border-opacity-0 cursor-pointer">Gallery</a>
+        <a href="/team" class=" pr-4 font-bold border-red-500 border-opacity-0 cursor-pointer "> Team</a>
+        <a href="/contact" class=" font-bold border-red-500 border-opacity-0 cursor-pointer">Contact</a>
     </div>
 </header>
 
@@ -57,11 +57,11 @@
         const nav = document.querySelector('#nav');
         const btn = document.querySelector('#btn');
         if (this.scrollY > 10) { 
-            nav.className = 'header fixed w-full top-0 shadow-md px-8 py-02 z-10 font-tt bg-slate-50 text-black transition-all duration-150'; 
+            nav.className = 'header fixed w-full top-0 shadow-md px-4 py-02 z-10 font-tt bg-slate-50 text-black transition-all duration-150'; 
             btn.className = 'mobile-menu-btn navbar-burger flex items-center text-black p-3'
         }
         else {
-            nav.className = 'header fixed w-full top-0 shadow-md px-8 py-02 z-10 font-tt text-white transition-all duration-150 ';
+            nav.className = 'header fixed w-full top-0 shadow-md px-4 py-02 z-10 font-tt text-white transition-all duration-150 ';
             btn.className = 'mobile-menu-btn navbar-burger flex items-center text-white-900 p-3'
         }
     };

@@ -7,5 +7,6 @@ const menu = document.querySelector('.mobile-menu')
 // Adding event Listeners
 
 btn.addEventListener('click', () => {
-    menu.classList.toggle("hidden");
+    menu.classList.toggle("menu", "hidden");
+    $( ".menu" ).toggle( "slide" );
 })

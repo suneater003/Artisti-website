@@ -9,6 +9,10 @@
     <title>Artisti | The Art Club</title>
     <link rel="stylesheet" href="./dist/output.css">
 
+    <!-- jQuery CDN  -->
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
     <!-- AOS CSS Cource  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -22,13 +26,15 @@
 
 <body style="overflow-x: hidden;">
     <%- include('navbar') %>
-        <div class="container flex justify-around mt-20 mobile:flex-col mobile:items-center">
-            <div class="mobile:mb-[5rem] mobile:mr-[40%]">
-                <img class="absolute max-w-xs mini:max-w-[12rem]" data-aos="fade-right" src="./assets/img/cover.jpg" alt="">
-                <img class="absolute w-52 h-56 mt-[20em] ml-[16em] border-2 mini:max-w-[12rem] mini:w-36 mini:h-36 mini:mt-[15rem] mini:ml-[6rem]" src="./assets/img/girl.jpg"
-                    data-aos="fade-right" alt="">
+        <div class="container flex justify-around mt-20 mobile:flex-col mobile:items-center mobile:mt-32">
+            <div class="mobile:mb-[5rem] mobile:mr-[60%]">
+                <img class="absolute max-w-xs mini:max-w-[12rem]" data-aos="fade-right" src="./assets/img/cover.jpg"
+                    alt="">
+                <img class="absolute w-52 h-56 mt-[20em] ml-[16em] border-2 mini:max-w-[12rem] mini:w-36 mini:h-36 mini:mt-[15rem] mini:ml-[6rem]"
+                    src="./assets/img/girl.jpg" data-aos="fade-right" alt="">
             </div>
-            <div id="cover-container" class="max-w-sm flex flex-col justify-center h-[33rem] mobile:mt-[27rem] mini:mt-80"
+            <div id="cover-container"
+                class="max-w-sm flex flex-col justify-center h-[33rem] mobile:mt-[27rem] mini:mt-80"
                 data-aos="fade-left">
                 <div class="mobile:flex mobile:items-center mobile:text-center mobile:justify-center">
                     <h1 class="flex items-center head text-[5rem] leading-tight mini:text-[3rem]">CLUB ARTISTI</h1>
