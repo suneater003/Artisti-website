@@ -1,0 +1,36 @@
+{
+    "row1": [
+        {
+            "id": 1,
+            "name": "Vipasa Basneet",
+            "role": "President",
+            "image": "./assets/leads/vipasa.png"
+        },
+        {
+            "id": 2,
+            "name": "Shreya Tripathi",
+            "role": "Vice President",
+            "image": "./assets/leads/shreya.png"
+        },
+        {
+            "id": 3,
+            "name": "Rohit Maurya",
+            "role": "Executive General",
+            "image": "./assets/leads/rohit.png"
+        }
+    ],
+    "row2": [
+        {
+            "id": 1,
+            "name": "Pooranjoy Bhattacharya",
+            "role": "Event Manager",
+            "image": "./assets/leads/pooranjoy.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Anikinee Deb",
+            "role": "Event Manager",
+            "image": "./assets/leads/anikinee.png"
+        }
+    ]
+}
