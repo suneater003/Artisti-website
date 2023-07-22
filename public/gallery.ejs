@@ -30,20 +30,39 @@
         <h1 class="head text-[5rem] leading-tight mt-28 text-center ml-16 mini:text-[3rem] mini:ml-0"
             data-aos="flip-up">ART GALLERY</h1>
         <h1 class="head text-[2rem] leading-tight mt-12 text-center ml-16 mini:text-[1rem] mini:ml-0"
-            data-aos="flip-up">Our Finest Works</h1>
+            data-aos="flip-up">Our Finest Modern Artworks</h1>
         <div class=" flex m-12 items-center justify-center" data-aos="flip-up">
             <div class="swiper-container">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper items-center">
+                    <% modern.forEach(function(art) { %>
                     <div class="swiper-slide">
                         <div class="flex items-center justify-center">
-                            <img class="w-1/3 rounded-2xl mini:w-56" src="./assets/img/girl.jpg" alt="">
+                            <img class="w-1/3 rounded-2xl mini:w-56" src="<%= art.image %>" alt="">
                         </div>
+                        <span class="flex items-center justify-center my-12"><i>Artwork by <%= art.artist %></i></span>
                     </div>
+                    <% }); %>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination mt-8"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <h1 class="head text-[2rem] leading-tight mt-12 text-center ml-16 mini:text-[1rem] mini:ml-0"
+            data-aos="flip-up">Our Finest Sketches</h1>
+        <div class=" flex m-12 items-center justify-center" data-aos="flip-up">
+            <div class="swiper-container">
+                <div class="swiper-wrapper items-center">
+                    <% portrait.forEach(function(art) { %>
                     <div class="swiper-slide">
                         <div class="flex items-center justify-center">
-                            <img class="w-1/3 rounded-2xl mini:w-56" src="./assets/img/girl.jpg" alt="">
+                            <img class="w-1/3 rounded-2xl mini:w-56" src="<%= art.image %>" alt="">
                         </div>
+                        <span class="flex items-center justify-center my-12"><i>Artwork by <%= art.artist %></i></span>
                     </div>
+                    <% }); %>
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination mt-8"></div>
@@ -101,6 +120,9 @@
 
                     © 2023 Copyright:
                     <a class="text-white">CLUB ARTISTI</a>
+                </div>
+                <div class="text-center my-3">
+                    Developed by <b>Pooranjoy Bhattacharya</b>
                 </div>
             </div>
         </footer>
