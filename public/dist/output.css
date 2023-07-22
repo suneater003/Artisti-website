@@ -668,6 +668,10 @@ video {
   margin-top: 8rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .block {
   display: block;
 }
@@ -850,6 +854,10 @@ video {
 
 .gap-32 {
   gap: 8rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-x-6 {
