@@ -1,0 +1,195 @@
+{
+    "modern": [
+        {
+            "id": 1,
+            "artist": "Pranav Jha",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/dancer.jpeg?updatedAt=1690039025505"
+        },
+        {
+            "id": 2,
+            "artist": "Prajinajyoti Choudhary",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/prajin2.jpeg?updatedAt=1690039993777"
+        },
+        {
+            "id": 4,
+            "artist": "Debanshi Sharma",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/devanshi.jpeg?updatedAt=1690044336958"
+        },
+        {
+            "id": 19,
+            "artist": "Pooranjoy Bhattacharya",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/lion.PNG?updatedAt=1690050672240"
+        },
+        
+
+        {
+            "id": 5,
+            "artist": "Pranav Jha",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/hunter.PNG?updatedAt=1690042605229"
+        },
+        {
+            "id": 6,
+            "artist": "Anikinee Deb",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/anny2.jpeg?updatedAt=1690044401502"
+        },
+        {
+            "id": 7,
+            "artist": "Prajinajyoti Choudhary",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/prajin1.jpeg?updatedAt=1690039971716"
+        },
+        {
+            "id": 18,
+            "artist": "Pooranjoy Bhattacharya",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/peacock.PNG?updatedAt=1690050670719"
+        },
+        {
+            "id": 8,
+            "artist": "Pranav Jha",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/templar.PNG?updatedAt=1690039549461"
+        },
+        {
+            "id": 9,
+            "artist": "Vipasa Basneet",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/vipasa2.jpeg?updatedAt=1690044648146"
+        },
+        {
+            "id": 10,
+            "artist": "Pooranjoy Bhattacharya",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/elephant.png?updatedAt=1690048992693"
+        },
+        {
+            "id": 11,
+            "artist": "Debanshi Sharma",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/devanshi2.jpeg?updatedAt=1690044358744"
+        },
+        {
+            "id": 12,
+            "artist": "Mohit Basnet",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/thinker.PNG?updatedAt=1690045056837"
+        },
+        {
+            "id": 13,
+            "artist": "Kuraj Shati",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/sketch7.PNG?updatedAt=1690045091210"
+        },
+        {
+            "id": 14,
+            "artist": "Anikinee Deb",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/WhatsApp%20Image%202023-07-22%20at%2021.59.57%20(1).jpeg?updatedAt=1690045622579"
+        },
+        {
+            "id": 15,
+            "artist": "Vipasa Basneet",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/vipasa6.jpeg?updatedAt=1690046882929"
+        },
+        {
+            "id": 16,
+            "artist": "Pooranjoy Bhattacharya",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/dog.PNG?updatedAt=1690050671823"
+        }
+
+    ],
+    "portrait": [
+        {
+            "id": 1,
+            "artist": "Jatin Juneja",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/joker.PNG?updatedAt=1690042824052"
+        },
+        {
+            "id": 2,
+            "artist": "Vipasa Basneet",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/vipasa3.jpeg?updatedAt=1690042824165"
+        },
+        { 
+            "id": 3,
+            "artist": "Anikinee Deb",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/anny3.jpeg?updatedAt=1690045579737"
+        },
+        {
+            "id": 4,
+            "artist": "Pooranjoy Bhattacharya",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/durga.png?updatedAt=1690041762376"
+        },
+        {
+            "id": 5,
+            "artist": "Prajinajyoti Choudhary",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/WhatsApp%20Image%202023-07-22%20at%2019.06.19.jpeg?updatedAt=1690045436682"
+        },
+        {
+            "id": 6,
+            "artist": "Vipasa Basneet",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/vipasa5.jpeg?updatedAt=1690042923477"
+        },
+        {
+            "id": 7,
+            "artist": "Debanshi Sharma",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/debanshi.jpeg?updatedAt=1690045588851"
+        },
+        {
+            "id": 8,
+            "artist": "Prajinajyoti Choudhary",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/sketch2.PNG?updatedAt=1690046443457"
+        },
+        {
+            "id": 89,
+            "artist": "Pranav Jha",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/WhatsApp%20Image%202023-07-22%20at%2020.08.43%20(1).jpeg?updatedAt=1690046705267"
+        },
+        {
+            "id": 10,
+            "artist": "Prajinajyoti Choudhary",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/WhatsApp%20Image%202023-07-22%20at%2019.12.06.jpeg?updatedAt=1690045435996"
+        },
+        {
+            "id": 11,
+            "artist": "Pranav Jha",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/WhatsApp%20Image%202023-07-22%20at%2020.08.43%20(2).jpeg?updatedAt=1690046696343"
+        },
+        {
+            "id": 12,
+            "artist": "Sudeep Das",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/sudeepdas.PNG?updatedAt=1690049309770"
+        },
+        {
+            "id": 13,
+            "artist": "Pragyan Deka",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/sketch6.PNG?updatedAt=1690049309920"
+        },
+        {
+            "id": 14,
+            "artist": "Dhruv Parasar",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/dhruvparasar.PNG?updatedAt=1690049320408"
+        },
+        {
+            "id": 15,
+            "artist": "Pranav Jha",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/pranav.PNG?updatedAt=1690049320460"
+        },
+        {
+            "id": 16,
+            "artist": "Suraj Sharma",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/surajsharma.PNG?updatedAt=1690050045967"
+        },
+        {
+            "id": 17,
+            "artist": "Rachit Jain",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/rachitjain.PNG?updatedAt=1690049785244"
+        },
+        {
+            "id": 18,
+            "artist": "Vipasa Basneet",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/vipasa4.jpeg?updatedAt=1690049936841"
+        },
+        {
+            "id": 19,
+            "artist": "Rachit Jain",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/sketch3.PNG?updatedAt=1690050223544"
+        },
+        {
+            "id": 20,
+            "artist": "Pooranjoy Bhattacharya",
+            "image": "https://ik.imagekit.io/clubartisti/Portraits/girl.PNG?updatedAt=1690050673952"
+        }
+
+    ]
+}
