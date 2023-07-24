@@ -16,78 +16,90 @@
             "image": "https://ik.imagekit.io/clubartisti/Modern/devanshi.jpeg?updatedAt=1690044336958"
         },
         {
-            "id": 19,
+            "id": 5,
             "artist": "Pooranjoy Bhattacharya",
             "image": "https://ik.imagekit.io/clubartisti/Modern/lion.PNG?updatedAt=1690050672240"
         },
-        
-
         {
-            "id": 5,
+            "id": 56,
             "artist": "Pranav Jha",
             "image": "https://ik.imagekit.io/clubartisti/Modern/hunter.PNG?updatedAt=1690042605229"
         },
         {
-            "id": 6,
+            "id": 7,
             "artist": "Anikinee Deb",
             "image": "https://ik.imagekit.io/clubartisti/Modern/anny2.jpeg?updatedAt=1690044401502"
         },
         {
-            "id": 7,
+            "id": 8,
             "artist": "Prajinajyoti Choudhary",
             "image": "https://ik.imagekit.io/clubartisti/Modern/prajin1.jpeg?updatedAt=1690039971716"
         },
         {
-            "id": 18,
+            "id": 9,
             "artist": "Pooranjoy Bhattacharya",
             "image": "https://ik.imagekit.io/clubartisti/Modern/peacock.PNG?updatedAt=1690050670719"
         },
         {
-            "id": 8,
+            "id": 10,
             "artist": "Pranav Jha",
             "image": "https://ik.imagekit.io/clubartisti/Modern/templar.PNG?updatedAt=1690039549461"
         },
         {
-            "id": 9,
-            "artist": "Vipasa Basneet",
-            "image": "https://ik.imagekit.io/clubartisti/Modern/vipasa2.jpeg?updatedAt=1690044648146"
+            "id": 11,
+            "artist": "Sayonika Bhowmick",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/WhatsApp%20Image%202023-07-24%20at%2023.37.55.jpeg?updatedAt=1690222208580"
         },
         {
-            "id": 10,
+            "id": 12,
             "artist": "Pooranjoy Bhattacharya",
             "image": "https://ik.imagekit.io/clubartisti/Modern/elephant.png?updatedAt=1690048992693"
         },
         {
-            "id": 11,
+            "id": 13,
             "artist": "Debanshi Sharma",
             "image": "https://ik.imagekit.io/clubartisti/Modern/devanshi2.jpeg?updatedAt=1690044358744"
         },
         {
-            "id": 12,
+            "id": 14,
             "artist": "Mohit Basnet",
             "image": "https://ik.imagekit.io/clubartisti/Modern/thinker.PNG?updatedAt=1690045056837"
         },
         {
-            "id": 13,
+            "id": 15,
             "artist": "Kuraj Shati",
             "image": "https://ik.imagekit.io/clubartisti/Modern/sketch7.PNG?updatedAt=1690045091210"
         },
         {
-            "id": 14,
+            "id": 16,
             "artist": "Anikinee Deb",
             "image": "https://ik.imagekit.io/clubartisti/Modern/WhatsApp%20Image%202023-07-22%20at%2021.59.57%20(1).jpeg?updatedAt=1690045622579"
         },
         {
-            "id": 15,
+            "id": 17,
             "artist": "Vipasa Basneet",
             "image": "https://ik.imagekit.io/clubartisti/Modern/vipasa6.jpeg?updatedAt=1690046882929"
         },
         {
-            "id": 16,
+            "id": 18,
             "artist": "Pooranjoy Bhattacharya",
             "image": "https://ik.imagekit.io/clubartisti/Modern/dog.PNG?updatedAt=1690050671823"
+        },
+        {
+            "id": 19,
+            "artist": "Sayonika Bhowmick",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/WhatsApp%20Image%202023-07-24%20at%2018.09.32.jpeg?updatedAt=1690222208649"
+        },
+        {
+            "id": 20,
+            "artist": "Vipasa Basneet",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/vipasa2.jpeg?updatedAt=1690044648146"
+        },
+        {
+            "id": 21,
+            "artist": "Sayonika Bhowmick",
+            "image": "https://ik.imagekit.io/clubartisti/Modern/WhatsApp%20Image%202023-07-24%20at%2018.09.33.jpeg?updatedAt=1690222208524"
         }
-
     ],
     "portrait": [
         {
