@@ -5,6 +5,7 @@ import teamRoute from './Routes/teamRoute.js';
 import Connection from './database/db.js';
 import membersRoute from './Routes/members.js';
 import contactRoute from './Routes/contactRoute.js';
+import formRouter from './Routes/formRoute.js';
 const app = express();
 
 const PORT = process.env.PORT || 3000
@@ -22,6 +23,8 @@ app.use(bp.urlencoded({extended: false}))
 app.get('/', (req, res) => {
     res.render('../public/base');
 })
+
+app.use('/', formRouter)
 
 // Gallery Route
 app.get('/gallery', galleryRoute);
