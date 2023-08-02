@@ -1,5 +1,6 @@
 import express from 'express'
-import artworks from '../assets/artworks.json' assert {type: 'json'}
+import { readFileSync } from "fs";
+const artworks = JSON.parse(readFileSync("backend/assets/artworks.json"));
 
 const galleryRoute = express.Router();
 

@@ -1,5 +1,6 @@
 import express from 'express'
-import members from '../assets/team.json' assert {type: 'json'}
+import { readFileSync } from "fs";
+const members = JSON.parse(readFileSync("backend/assets/team.json"));
 const teamRoute = express.Router();
 
 //Teams Route
