@@ -1870,6 +1870,10 @@ body {
     margin-top: 15rem;
   }
 
+  .mini\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .mini\:h-36 {
     height: 9rem;
   }
