@@ -1072,6 +1072,11 @@ video {
   background-color: rgb(229 229 229 / var(--tw-bg-opacity));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
@@ -1823,6 +1828,10 @@ body {
 @media (max-width: 670px) {
   .mini\:static {
     position: static;
+  }
+
+  .mini\:left-\[25\%\] {
+    left: 25%;
   }
 
   .mini\:order-\[0\] {
