@@ -2,21 +2,30 @@
     "row1": [
         {
             "id": 1,
-            "name": "Vipasa Basneet",
-            "role": "President",
-            "image": "./assets/leads/vipasa.png"
+            "name": "Dr. Sanat Kumar Das",
+            "role": "Club Coordinator",
+            "image": "./assets/leads/sanatsir.png",
+            "google": "https://scholar.google.com/citations?user=B9apFtAAAAAJ&hl=en",
+            "mail": "sanat.d@smit.smu.edu.in",
+            "linkedin":"https://www.linkedin.com/in/dr-sanat-kumar-das-1995521b2/"
         },
         {
             "id": 2,
-            "name": "Shreya Tripathi",
-            "role": "Vice President",
-            "image": "./assets/leads/shreya.png"
+            "name": "Vipasa Basneet",
+            "role": "President",
+            "image": "./assets/leads/vipasa.png",
+            "mail": "viipasa10@gmail.com",
+            "instagram": "https://www.instagram.com/viipasa/",
+            "linkedin": "https://www.linkedin.com/in/viipasa/"
         },
         {
             "id": 3,
-            "name": "Rohit Maurya",
-            "role": "Executive General",
-            "image": "./assets/leads/rohit.png"
+            "name": "Shreya Tripathi",
+            "role": "Vice President",
+            "image": "./assets/leads/shreya.png",
+            "mail": "shreyanjali179@gmail.com",
+            "instagram": "https://www.instagram.com/__shreya.7/",
+            "linkedin": "https://www.linkedin.com/in/shreya-tripathi-266529220/"
         }
     ],
     "row2": [
@@ -24,13 +33,48 @@
             "id": 1,
             "name": "Pooranjoy Bhattacharya",
             "role": "Event Manager",
-            "image": "./assets/leads/pooranjoy.jpg"
+            "image": "./assets/leads/pooranjoy.jpg",
+            "github": "https://github.com/pooranjoyb",
+            "instagram": "https://www.instagram.com/pooranjoyz_.ig/",
+            "linkedin": "https://www.linkedin.com/in/pooranjoy-bhattacharya-baa23721a/"
         },
         {
             "id": 2,
+            "name": "Rohit Maurya",
+            "role": "Executive General",
+            "image": "./assets/leads/rohit.png",
+            "mail": "rohitm55936@gmail.com",
+            "instagram": "https://www.instagram.com/call_me_rebel____/",
+            "linkedin": "https://www.linkedin.com/in/rohit-maurya-001009237/"
+        },
+        {
+            "id": 3,
             "name": "Anikinee Deb",
             "role": "Event Manager",
-            "image": "./assets/leads/anikinee.png"
+            "image": "./assets/leads/anikinee.png",
+            "github": "https://github.com/anikinee",
+            "instagram": "https://www.instagram.com/anikinee_deb_2003/",
+            "linkedin": "https://www.linkedin.com/in/anikinee-deb-219692221/"
+        }
+    ],
+    "row3": [
+        {
+            "id": 1,
+            "name": "Sampreet Dey",
+            "role": "Public Relations",
+            "image": "./assets/leads/sampreet.png",
+            "github": "https://github.com/sampreet-cell",
+            "instagram": "https://www.instagram.com/__sampreet___/",
+            "linkedin": "https://www.linkedin.com/in/sampreet-dey-b53a08249/"
+        },
+        {
+            "id": 2,
+            "name": "Madhurjya Dasgupta",
+            "role": "Public Relations",
+            "image": "./assets/leads/madhurjya.png",
+            "github": "https://github.com/LunaticPython2003",
+            "instagram": "https://www.instagram.com/encapsulated_spyware.sh/",
+            "linkedin": "https://www.linkedin.com/in/madhurjya-dasgupta-305612159/"
         }
     ]
 }

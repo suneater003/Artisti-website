@@ -5,7 +5,7 @@ const teamRoute = express.Router();
 
 //Teams Route
 teamRoute.get('/team', (req, res) => {
-    res.render('../public/team', {members1: members.row1, members2: members.row2})
+    res.render('../public/team', {members1: members.row1, members2: members.row2, members3: members.row3})
 })
 
 export default teamRoute;
