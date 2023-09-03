@@ -1,6 +1,6 @@
-# Artisti SMIT : Website 
+# Artisti SMIT
 
-Welcome to the Artisti SMIT : Website  repository! 
+Welcome to the Artisti SMIT repository! 
 This project is a dynamic web application for the only **Art Club of Sikkim Manipal Institute of Technology** , developed by Pooranjoy Bhattacharya.
 
 ## Features
@@ -9,7 +9,6 @@ This project is a dynamic web application for the only **Art Club of Sikkim Mani
 - Learn about upcoming events, workshops, and exhibitions organized by the art club.
 - Connect with fellow art enthusiasts, share your creations, and engage in discussions.
 - Easily manage and update content using the MongoDB database.
-
 
 ## Technologies Used
 
