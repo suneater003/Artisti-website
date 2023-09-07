@@ -51,7 +51,7 @@ You can also run the Artisti-SMIT Website in a Docker container.
 1. Build the Docker image:
 
    ```bash
-   docker build -t artisti-website .
+   docker build -t pooranjoyb/artisti-website --build-arg MONGODB_URI="DB_ACCESS_KEY" .
 2. Run the Docker Container
     ```bash
     docker run -p 3000:3000 -d artisti-website
@@ -65,7 +65,7 @@ To pull and run the Docker image from Docker Hub:
 1. Pull the Docker image:
 
    ```bash
-   docker pull pooranjoyb/artisti-website
+   docker pull pooranjoyb/artisti-website:latest
 2. Run the Docker container:
     ```bash
     docker run -p 3000:3000 -d pooranjoyb/artisti-website
