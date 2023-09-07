@@ -2,6 +2,10 @@ FROM node:14
 
 WORKDIR /usr/src/app
 
+ARG MONGODB_URI
+
+ENV env_name $MONGODB_URI
+
 # copy all the files to the container
 COPY . .
 
