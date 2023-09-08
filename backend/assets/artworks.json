@@ -2,7 +2,7 @@
     "modern": [
         {
             "id": 1,
-            "artist": "Pranav Jha",
+            "artist": "Pranay Pradhan",
             "image": "https://ik.imagekit.io/clubartisti/Modern/dancer.jpeg?updatedAt=1690039025505"
         },
         {
@@ -47,7 +47,7 @@
         },
         {
             "id": 11,
-            "artist": "Sayonika Bhowmick",
+            "artist": "Sayanika Bhowmik",
             "image": "https://ik.imagekit.io/clubartisti/Modern/WhatsApp%20Image%202023-07-24%20at%2023.37.55.jpeg?updatedAt=1690222208580"
         },
         {
@@ -87,7 +87,7 @@
         },
         {
             "id": 19,
-            "artist": "Sayonika Bhowmick",
+            "artist": "Sayanika Bhowmik",
             "image": "https://ik.imagekit.io/clubartisti/Modern/WhatsApp%20Image%202023-07-24%20at%2018.09.32.jpeg?updatedAt=1690222208649"
         },
         {
@@ -97,7 +97,7 @@
         },
         {
             "id": 21,
-            "artist": "Sayonika Bhowmick",
+            "artist": "Sayanika Bhowmik",
             "image": "https://ik.imagekit.io/clubartisti/Modern/WhatsApp%20Image%202023-07-24%20at%2018.09.33.jpeg?updatedAt=1690222208524"
         }
     ],
