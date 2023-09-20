@@ -1,5 +1,9 @@
-# Artisti SMIT
+<h1 align="center"> Artisti SMIT</h1>
+<div align="center">
+   
+<img src="./public/assets/favicon.png" alt="Artsti_Logo" width="30%"/>
 
+</div>
 Welcome to the Artisti SMIT repository! 
 This project is a dynamic web application for the only **Art Club of Sikkim Manipal Institute of Technology** , developed by Pooranjoy Bhattacharya.
 
