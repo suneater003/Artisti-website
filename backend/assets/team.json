@@ -13,19 +13,19 @@
             "id": 2,
             "name": "Aditya Raj",
             "role": "President",
-            "image": "./assets/leads/sampreet.png",
-            "github": "https://github.com/sampreet-cell",
-            "instagram": "https://www.instagram.com/__sampreet___/",
-            "linkedin": "https://www.linkedin.com/in/sampreet-dey-b53a08249/"
+            "image": "./assets/leads/aditya.png",
+            "github": "https://github.com/suneater003",
+            "instagram": "https://www.instagram.com/aditya_raj645/",
+            "linkedin": "https://www.linkedin.com/in/aditya-raj-2686772b8/"
         },
         {
             "id": 3,
             "name": "Suhani Terway",
             "role": "Vice President",
-            "image": "./assets/leads/anikinee.png",
-            "github": "https://github.com/anikinee",
-            "instagram": "https://www.instagram.com/anikinee_deb_2003/",
-            "linkedin": "https://www.linkedin.com/in/anikinee-deb-219692221/"
+            "image": "./assets/leads/suhani.png",
+            "mail": "suhaniterway@gmail.com",
+            "instagram": "https://www.instagram.com/suhx.nii/",
+            "linkedin": "https://www.linkedin.com/in/suhani-terway-7629b621a/"
         }
     ],
     "row2": [
@@ -33,28 +33,28 @@
             "id": 1,
             "name": "Arka Bera",
             "role": "Event Manager",
-            "image": "./assets/leads/sharan.png",
-            "mail": "sharandeep269@gmail.com",
-            "instagram": "https://www.instagram.com/sharandeep_peela/",
-            "linkedin": "https://www.linkedin.com/in/sharandeep-peela-84b684219/"
+            "image": "./assets/leads/arka.png",
+            "mail": "arkabera2004@gmail.com",
+            "instagram": "https://www.instagram.com/__arkaaa__/",
+            "linkedin": "https://www.linkedin.com/in/arka-bera-1b2ab6211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
             "id": 2,
             "name": "Sonakshi",
             "role": "Executive General",
-            "image": "./assets/leads/rajdeep.png",
-            "mail": "drajdeepdas2702@gmail.com",
-            "instagram": "https://www.instagram.com/raj_._deep/",
-            "linkedin": "https://www.linkedin.com/in/rajdeepdas2003/"
+            "image": "./assets/leads/sonakshi.png",
+            "mail": "sinhasonakshi2004@gmail.com",
+            "instagram": "https://www.instagram.com/sonakshi_sinha2607/",
+            "linkedin": "https://www.linkedin.com/in/sonakshi-sinha-40b9382a5/"
         },
         {
             "id": 3,
             "name": "Mohana Roy",
             "role": "Event Manager",
-            "image": "./assets/leads/anushree.png",
-            "mail": "shigeruakagi07@gmail.com",
-            "instagram": "https://www.instagram.com/poggendorf1",
-            "linkedin": ""
+            "image": "./assets/leads/mohana.png" ,
+            "mail": "mohanaray279@gmail.com",
+            "instagram": "https://www.instagram.com/shiirin_2791?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+            "linkedin": "https://www.linkedin.com/in/mohona-roy-a775a6312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         }
     ],
     "row3": [
@@ -62,19 +62,19 @@
             "id": 1,
             "name": "Siddharth Kumar",
             "role": "Public Relations and Media",
-            "image": "./assets/leads/arpana.png",
-            "mail": "arpana_202100189@smit.smu.edu.in",
-            "instagram": "https://www.instagram.com/arpana_sinha_022/",
-            "linkedin": "https://www.linkedin.com/in/arpana-sinha-255900250/"
+            "image": "./assets/leads/siddharth.png",
+            "mail": "siddharth.sk324@gmail.com",
+            "instagram": "https://www.instagram.com/tf_siddhxrth?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+            "linkedin": "https://www.linkedin.com/in/siddharth-kumar472/"
         },
         {
             "id": 2,
             "name": "Janvi Kant",
             "role": "Public Relations and Media",
-            "image": "./assets/leads/amrit.png",
-            "github": "https://github.com/Amrit-op",
-            "instagram": "https://www.instagram.com/iam_amrit.m_/",
-            "linkedin": "https://www.linkedin.com/in/amrit-mohapatra-5788bb268/"
+            "image": "./assets/leads/janvi.png",
+            "mail": "janvikant12@gmail.com",
+            "instagram": "https://www.instagram.com/janvi.kant?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+            "linkedin": "https://www.linkedin.com/in/janvi-kant-77190a320/"
         }
     ]
 }
